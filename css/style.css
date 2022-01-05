@@ -1,0 +1,56 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins&display=swap');
+
+/* reset code */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+}
+#welcome_to{
+    display: flex;
+    background-image: url(../img/top-banner.png);
+    background-repeat: no-repeat;
+}
+.half_width{
+    width: 50%;
+}
+.half_width span{
+    color: tomato;
+}
+h1{
+    font-weight: 700;
+    font-size: 50px;
+    padding: 30px 0;
+    margin-left: 100px;
+}
+.half_width h3{
+    padding: 30px 0;
+    margin-left: 100px;
+}
+.half_width p{
+    margin-left: 100px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    text-align: justify;
+    font-weight: 300;
+}
+.half_width img{
+    width: 80%;
+    margin-top: 44px;
+}
+.button{
+    background-color: tomato;
+    border-radius: 5px;
+    padding: 10px 30px;
+    margin-left: 100px;
+    text-decoration: none;
+    color: #fff;
+}
+.button:hover{
+    background-image: linear-gradient(rgb(241, 30, 30), rgb(141, 14, 14));
+    font-weight: 700;
+    letter-spacing: 1px;
+}
